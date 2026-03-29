@@ -1,0 +1,9 @@
+[OK] GET /health -> {'status': 'healthy', 'environment': 'support_ticket_triage'}
+[OK] GET /tasks  -> 3 tasks, 6 action types
+[OK] POST /reset -> 2 open tickets
+[OK] POST /step  -> reward=0.2, done=False
+     Feedback: Correctly classified T001 as 'it_support' (+0.20).
+[OK] GET /grader -> score=0.1111
+[OK] GET /state  -> step_count=1, done=False
+
+ALL 6 ENDPOINTS VERIFIED SUCCESSFULLY
