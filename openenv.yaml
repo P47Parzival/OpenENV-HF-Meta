@@ -1,0 +1,28 @@
+spec_version: 1
+name: support_ticket_triage
+type: space
+runtime: fastapi
+app: main:app
+port: 7860
+
+metadata:
+  description: >
+    A real-world OpenEnv environment where AI agents learn to classify,
+    prioritize, route, and resolve customer support tickets across
+    3 difficulty levels (easy → medium → hard).
+  version: 1.0.0
+  author: OpenENV
+  tags:
+    - customer-support
+    - triage
+    - real-world
+    - reinforcement-learning
+  reward_range: [0.0, 1.0]
+  num_tasks: 3
+  action_types:
+    - classify
+    - prioritize
+    - route
+    - respond
+    - escalate
+    - resolve
