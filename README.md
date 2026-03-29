@@ -1,3 +1,13 @@
+---
+title: Support Ticket Triage
+emoji: 🎫
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # 🎫 Support Ticket Triage — OpenEnv Environment
 
 A **real-world** [OpenEnv](https://github.com/meta-pytorch/OpenEnv) environment where AI agents learn to classify, prioritize, route, and resolve customer support tickets. Designed for reinforcement learning research and agentic AI evaluation.
